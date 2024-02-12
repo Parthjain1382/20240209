@@ -1,0 +1,226 @@
+/*header section*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    background-color: #010101;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navbar img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.navbar span {
+    font-size: 13.5px;
+    color: #9b9dad
+}
+
+.fa-plus {
+    font-size: 12px;
+    background-color: #00e348;
+    color: #010101;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+/*right panel of navbar*/
+.heart-button {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.fa-heart {
+    padding: 3.5px 7px 3.5px 7px
+}
+
+.heart-button i {
+    font-size: 18px;
+    margin-right: 2px;
+}
+
+.heart-button span {
+    padding: 2px;
+}
+
+.sign-button {
+    color: black;
+    background-color: #20b64f;
+    padding: 12px 19px 12px 19px;
+}
+
+.logIn {
+    padding: 12px 19px 12px 19px;
+    margin-right: 20px
+}
+
+.content-navbar {
+    color: white;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 19.5px
+}
+
+
+.navbar button {
+    background-color: #444857;
+    border: none;
+    padding: 11px 11px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: Lato;
+}
+
+
+/* left Panel*/
+
+.main-content {
+    display: flex;
+}
+
+/*Instagram column*/
+.instagram-column {
+    top: 9vh;
+    background-color: white;
+    position: relative;
+    height: 87vh;
+    width: 72vw;
+}
+
+/* Right Panel*/
+.right-panel {
+    display: flex;
+    top: 9vh;
+    width: 28px;
+    position: relative;
+    flex-direction: column;
+    background-color: #010101;
+}
+
+.right-panel-row {
+    height: 29vh;
+    width: 27vw;
+    background-color: #1d1e22;
+    margin-left: auto;
+}
+
+.name-doc {
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: bold;
+    color: #aaaebc;
+
+}
+
+.right-panel-row-button {
+    background-color: #1d1e22;
+    border: 3px solid #34363e;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 8.5px;
+}
+
+.right-panel-row-button i {
+    color: red;
+    font-size: 15px;
+}
+
+.main-content nav {
+    display: flex;
+    align-items: center;
+}
+
+.right-panel-leftside {
+    background-color: #010101;
+    padding: 10px;
+    width: 310.5px;
+}
+
+.leftside-button {
+    background-color: #444857;
+    border: none;
+    padding: 0.5px 9px 0.5px 9px;
+    margin-left: 255.5px;
+    border-radius: 3px;
+}
+
+.right-panel-leftside i {
+    color: white;
+    font-size: 10px;
+}
+
+.leftside-button1 {
+    background-color: #444857;
+    border: none;
+    padding: 0.5px 9px 0.5px 9px;
+    border-radius: 3px;
+
+}
+
+hr {
+    margin: 1px 15.5px;
+    border: none;
+    border-top: 2px solid #2f2f2f;
+    width: 414px;
+}
+
+/*Footer */
+
+
+.footer{
+    width: 100vw;
+    height: 30px;
+    background-color: #2c303a;
+    position: fixed;
+    bottom: 0;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .right-button {
+    background-color: #444857;
+    color: white;
+    padding: 5px 5px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+  }
+
+  .left-button-container {
+    margin-left: 69.5%;
+    display: flex;
+  }
+
+  .left-button {
+    background-color: #444857;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    margin-right: 4px;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+  }
