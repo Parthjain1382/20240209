@@ -1,0 +1,25 @@
+body{
+  margin : 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: rgb(0, 72, 255);
+}
+.header{
+  width : 100vw;
+  height : 20px;
+  background-color: rgb(0, 151, 205);
+  position: fixed;
+  top: 0;
+}
+.footer{
+  width : 100vw;
+  height : 20px;
+  background-color: rgba(19, 3, 94, 0.647);
+  position: fixed;
+  bottom: 0;
+}
+.sidePanel {
+  width: 30vw; 
+  height: calc(100vh - 20px); 
+  background-color: rgba(1, 91, 170, 0.599);
+}
